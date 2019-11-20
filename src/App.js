@@ -36,7 +36,7 @@ function App() {
 
   function handleClick(index) {
     const colorsClone = [...colors];
-    for (i = 0; i < 3; i++) {
+    for (i = 0; i < 4; i++) {
       colorsClone[i] = false;
     }
     if (colorsClone[index] === false) {
