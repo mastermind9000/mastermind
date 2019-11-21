@@ -1,5 +1,4 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
 import styled from "@emotion/styled";
 import GlobalStyles from "./GlobalStyles";
@@ -33,7 +32,6 @@ const Color = styled.button`
 
 function App() {
   const [colors, setStatus] = React.useState(Array(4).fill(false));
-
   function handleClick(index) {
     const colorsClone = [...colors];
     for (i = 0; i < 4; i++) {
